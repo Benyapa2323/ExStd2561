@@ -1,6 +1,6 @@
 <?php session_start();?>
 <?php
-  @$database = include('database.php');
+  @$database = include('database/database.php');
   if(!$database){ 
   echo '<br><br><br><div class="container"><div class="alert alert-danger" role="alert">
   <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
